@@ -5,13 +5,21 @@
         <title>Blackjack Javascript Game</title>
     </head>
     <body>
-        <h1>BLACKJACK</h1>
-        <p id="message-el">Let's Play some Blackjack!</p>
-        <p id="cards-el">Cards:</p>
-        <p id="sum-el">Sum:</p>
-        <button onclick="startGame()">START GAME</button>
-        <button onclick="newCard()">NEW CARD</button>
-        <p id="player-el"></p>
+        <div class="box">
+            <h1>BLACKJACK</h1>
+                <div class="card-text">
+                    <p id="message-el">Let's Play some Blackjack!</p>
+                    <p id="cards-el">Cards:</p>
+                    <p id="sum-el">Sum:</p>
+                </div>
+            <button onclick="startGame()">START GAME</button>
+            <button onclick="newCard()">NEW CARD</button>
+                <div class="player-chips">
+                    <p id="player-el"></p>
+                </div>
+            
+        </div>
+        
         <script src="index.js"></script>
     </body>
 </html>
